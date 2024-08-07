@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # Initialize Google Maps API client
-api_key = 'AIzaSyCo4GeEU4Iu7Y_wjpypux-7WqQrZgH1OHE'
+api_key = 'your key'
 gmaps = googlemaps.Client(key=api_key)
 
 # List of cities and reference points
