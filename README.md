@@ -40,11 +40,21 @@ The project is organized as follows:
 To run this project, follow these steps:
 
 1. Clone the repository: https://github.com/emhess93/US_vs_Canada_Living/
-2. Create and activate a virtual environment using the appropriate commands for your system (see reference below).
-3. Install the necessary dependencies: `pip install -r requirements.txt`
+   
+2. Create and activate a virtual environment in the project folder using the appropriate commands for your system (see reference below).
+   
+| Command | Linux/Mac | GitBash |
+|---------|-----------|---------|
+| Create | `python3 -m venv venv` | `python -m venv venv` |
+| Activate | `source venv/bin/activate` | `source venv/Scripts/activate` |
+   
+3. Install the necessary packages: `pip install -r requirements.txt`
+
 4. Navigate to the "data" folder within the project and open the Jupyter Notebook "Summary". Go to the code beneath the Markdown "Get Distances with Google Maps API" and replace the API key placeholder "your key" with the one you obtained in order to run the code.
+
 5. Run the Jupyter notebook and view the findings.
-6. Deactivate the virtual environment.
+
+6. Deactivate the virtual environment: `deactivate`
 
 ## Dependencies
 
