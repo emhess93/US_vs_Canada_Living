@@ -19,32 +19,32 @@ The project will also utilize data obtained from a Google Maps API. To run this 
 
 The project is organized as follows:
 
-- **Data Exploration:** Jupyter notebooks or scripts to explore the dataset.
+- **Data Exploration:** Jupyter notebooks to explore the dataset.
 
-- **Analysis:** Using Python with the  Pandas package to clean the data.
+- **Analysis:** Using Python with the Pandas package to clean the data.
 
 - **Visualizations :** Using Matplotlib and Plotly to visualize my findings. 
-
-- **Dashboard:** Additionally generat of the data dashboard. [Tableau](https://public.tableau.com/app/discover/viz-of-the-day)
 
 ## Features Utilized for the project
 
   | Feature        | Description                           |
   |----------------|---------------------------------------|
-  | Read TWO data files| Used 2 CSV files from kaggle          |
-  | Clean your data and perform a pandas merge with your two data sets, then calculate some new values based on the new data set.      | Cleaned my data and merged them with pandas. The calculated stats from various data points |
-  | Make 3 matplotlib, and Plotly | Made various plots to show off my findings. |
-  | Make a Tableau dashboard      | Made a dashboard with my findings. [Tableau](https://public.tableau.com/app/discover/viz-of-the-day) |
+  | Read TWO data files| Used 2 CSV files from kaggle and one from API         |
+  | Clean your data and perform a pandas merge with your two data sets, then calculate some new values based on the new data set.      | Cleaned my data and merged them with pandas. New columns were calculated  based on orignal columns |
+  | Make 3 matplotlib / seaborn visulaizations | Made various plots to show off my findings. |
   | Utilize a virtual environment      | Made a venv for this project to keep my computer clean. |
-  | Notate your code with markdown cells in Jupyter Notebook | Included in my code, you will find clear notes describing each code block. |
+  | Notate your code with markdown cells in Jupyter Notebook | Markdowns included in my jupyter notebook, code is commented also|
 
 ## Getting Started
 
 To run this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
-2. Install the necessary dependencies: `pip install -r requirements.txt`
-3. Explore the Jupyter notebooks or scripts in the respective folders.
+1. Clone the repository: https://github.com/emhess93/US_vs_Canada_Living/
+2. Create and activate a virtual environment using the appropriate commands for your system (see reference below).
+3. Install the necessary dependencies: `pip install -r requirements.txt`
+4. Navigate to the "data" folder within the project and open the Jupyter Notebook "Summary". Go to the code beneath the Markdown "Get Distances with Google Maps API" and replace the API key placeholder "your key" with the one you obtained in order to run the code.
+5. Run the Jupyter notebook and view the findings.
+6. Deactivate the virtual environment.
 
 ## Dependencies
 
