@@ -1,4 +1,4 @@
-# Where to live - US or Canada?
+# Where to live - US vs. Canada?
 
 ## Overview
 
