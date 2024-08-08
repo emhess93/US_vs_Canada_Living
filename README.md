@@ -51,7 +51,7 @@ To run this project, follow these steps:
 
 3. Install the necessary packages: `pip install -r requirements.txt`
 
-4. Navigate to the "data" folder within the project and open the Jupyter Notebook "Summary". Go to the code beneath the Markdown "Get Distances with Google Maps API" and replace the API key placeholder "your key" with the one you obtained in order to run the code.
+4. Within the project folder, open the Jupyter Notebook "Summary.ipynb". Go to the code beneath the Markdown "Get Distances with Google Maps API" and replace the API key placeholder "your key" with the one you obtained in order to run the code.
 
 5. Run the Jupyter notebook and view the findings.
 
