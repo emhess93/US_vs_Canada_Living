@@ -2,16 +2,20 @@
 
 ## Overview
 
-The project is my capstone project for CODE:You. The project analyzes sales data to gain insights into various factors, including item sales throughout their life cycles, top development factors, and more. The goal of the project is to demonstrate a general knowledge of Python, SQL, and Tableau.
+My capstone project for CODE:You involves analyzing data to decide where my significant other and I may want to settle. Some factors for consideration include distance to family, monthly expenses, and lifestyle costs. The goal of the project is to demonstrate a general knowledge of Python/pandas, utilization of API's, and data visualization via myplot/seaborn.
 
 ## Data
 
-The dataset used in this project contains information about sales, including details such as title, genre, publisher, developer, critic scores, total sales, and release dates.
-- [Data 1](https://kaggle.com)
-- [Data 2](https://kaggle.com)
+The dataset used in this project contains data from 2 CSV files that are merged together. One contains the primary data for cost of living, and the second provides the detailed headers to clarify what each column represents.
+
+- [Cost_of_Living](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living?select=cost-of-living.csv)
+- [Cost_of_Living_Headers](https://www.kaggle.com/datasets/mvieira101/global-cost-of-living?select=cost-of-living.csv)
+
+The project will also utilize data obtained from a Google Maps API. To run this within the project, you will need to obtain your own API key by following the instructions in the link below:
+
+- https://developers.google.com/maps/get-started#enable-api-sdk
 
 ### Project Structure
----
 
 The project is organized as follows:
 
