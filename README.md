@@ -51,12 +51,10 @@ To run this project, follow these steps:
 
 3. Install the necessary packages: `pip install -r requirements.txt`
 
-4. Within the project folder, open the Jupyter Notebook "Summary.ipynb". Go to the code beneath the markdown "Use Google Maps API Client to pull in distances of top 10 cities to the main visit destinations" and replace the API key placeholder "your key" with the one you obtained in order to run the code.
+4. Within the project folder, open the Jupyter Notebook "Summary.ipynb".
 
-5. Run the Jupyter notebook and view the findings.
+5. Go to the code beneath the markdown "Use Google Maps API Client to pull in distances of top 10 cities to the main visit destinations. MAKE SURE TO INSERT YOUR API KEY!" and replace the API key placeholder "your key" with the one you obtained in order to run the code.
 
-6. Deactivate the virtual environment: `deactivate`
+6. Run the Jupyter notebook and view the findings.
 
-## Dependencies
-
-List any dependencies or libraries used in the project.
+7. Deactivate the virtual environment: `deactivate`
